@@ -10,9 +10,20 @@ font-family: 'Gentium Basic', serif;            Body
 
 @import url('https://fonts.googleapis.com/css?family=Gentium+Basic:400,400i,700|Merienda:400,700&display=swap');
 
+a:link, a:visited {
+    color:#65697D;
+}
+
+a:focus, a:hover {
+    background-color: #E4E7AE;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 body {
     font-size: 16px;
     font-family: 'Gentium Basic', serif;
+    background-color: #C3D47B;
 }
 
 h1 {
@@ -41,5 +52,29 @@ h1 {
 h2 {
     font-family: 'Merienda', cursive;
     font-size: 150%;
+    margin: 25px 50px 25px 50px;
+}
+
+header {
+    background-image: url(images/);
+}
+
+p, h3 {
+    line-height: 2;
+}
+
+.page-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.intro {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.main {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
