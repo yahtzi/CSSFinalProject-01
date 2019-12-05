@@ -1,14 +1,45 @@
 /*
-font-family: 'Merienda', cursive;               Prospect Header - this is the weirder looking one
-font-family: 'Marck Script', cursive;           Prospect Header - this is the more cursive one
-font-family: 'Gentium Basic', serif;            Body 
+font-family: 'Merienda', cursive;               Header
+font-family: 'Gentium Basic', serif;            Body     
+
+    background-image: url(images/WaterGarden.jpg);
+    background-repeat: no-repeat;
+    height: 250px;
+
 */
 
-@import url('https://fonts.googleapis.com/css?family=Gentium+Basic:400,400i,700|Marck+Script|Merienda:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic:400,400i,700|Merienda:400,700&display=swap');
 
 body {
     font-size: 16px;
     font-family: 'Gentium Basic', serif;
 }
 
+h1 {
+
+    font-family: 'Merienda', cursive;
+    font-size: 250%;
+    font-weight: bolder;
+
+    animation-duration: 4s;
+    animation-name: slidein;
+}      
+      
+@keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%; 
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+
+
+h2 {
+    font-family: 'Merienda', cursive;
+    font-size: 150%;
+}
 
