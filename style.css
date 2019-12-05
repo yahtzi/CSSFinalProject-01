@@ -1,0 +1,14 @@
+/*
+font-family: 'Merienda', cursive;               Prospect Header - this is the weirder looking one
+font-family: 'Marck Script', cursive;           Prospect Header - this is the more cursive one
+font-family: 'Gentium Basic', serif;            Body 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic:400,400i,700|Marck+Script|Merienda:400,700&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Gentium Basic', serif;
+}
+
+
