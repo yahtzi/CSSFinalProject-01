@@ -1,18 +1,18 @@
 /*
-font-family: 'Raleway', sans-serif;
-font-family: 'Cinzel Decorative', cursive;
+font-family: 'Raleway', sans-serif;             Body
+font-family: 'Cinzel Decorative', cursive;      Headings
 */
 
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700|Raleway:400,500i,700,800i,900i&display=swap');
 
-a:link, a:visited {
-    color: #8C392C;
-    text-decoration: none;
-}
-
 a:focus, a:hover {
     background-color: #FCBFBF;
     border-radius: 5px;
+}
+
+a:link, a:visited {
+    color: #8C392C;
+    text-decoration: none;
 }
 
 body {
@@ -35,6 +35,11 @@ h2 {
     margin-top: 225px;
 }
 
+h3 {
+    color: #ffa6a6;
+    text-shadow: #383838 2px 2px;
+}
+
 header {
     background-image: url(images/leaf.jpg);
     background-position: center;
@@ -49,9 +54,10 @@ header {
     text-align: center;
 }
 
-h3 {
-    color: #ffa6a6;
-    text-shadow: #383838 2px 2px;
+.main {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 0px 60px 50px 60px;
 }
 
 p, h3 {
@@ -70,12 +76,6 @@ p, h3 {
 .intro {
     grid-column-start: 1;
     grid-column-end: 4;
-}
-
-.main {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    margin: 0px 60px 50px 60px;
 }
 
 .sidebar {
