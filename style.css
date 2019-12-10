@@ -5,6 +5,10 @@ font-family: 'Cinzel Decorative', cursive;      Headings
 
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700|Raleway:400,500i,700,800i,900i&display=swap');
 
+abbr {
+    text-decoration: none;
+}
+
 a:focus, a:hover {
     background-color: #FCBFBF;
     border-radius: 5px;
