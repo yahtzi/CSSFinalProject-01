@@ -9,7 +9,7 @@ abbr {
     text-decoration: none;  
 }
 
-a:focus, a:hover {
+a:focus, a:hover { 
     background-color: #FCBFBF;
     border-radius: 5px;
 }

@@ -7,16 +7,18 @@ font-family: 'Open Sans Condensed', sans-serif;     Body
 
 abbr {
     text-decoration: none; 
+} 
+
+
+a:link, a:visited {
+    color: #80A1F9; 
+    text-decoration: none;
 }
 
 a:focus, a:hover {
     background-color: #0a0a47; 
     border-radius: 5px;
-}
-
-a:link, a:visited {
-    color: #80A1F9; 
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 body {
@@ -25,8 +27,8 @@ body {
     font-size: 16px;
     font-family: 'Montserrat Alternates', sans-serif;
     letter-spacing: 1px;
-    line-height: 1.5rem;
-    margin: -25px 475px 50px 475px;
+    margin: -25px auto 50px auto;
+    width: 45em;
 }
 
 header {
@@ -51,7 +53,7 @@ h1, h2 {
 
 h1 {
     font-size: 2em;
-    padding-top: 185px;
+    padding-top: 180px;
 }
 
 h2 {
@@ -62,4 +64,9 @@ h2 {
 h3 {
     color: #abcbff;
     text-shadow: #0a0a47 2px 2px;
+}
+
+p {
+    line-height: 1.5rem;
+    margin-bottom: 30px; 
 }
