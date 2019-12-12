@@ -1,0 +1,65 @@
+/*
+font-family: 'Montserrat', sans-serif;              Head
+font-family: 'Open Sans Condensed', sans-serif;     Body
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Megrim|Montserrat+Alternates:400,400i,700,700i,800,800i&display=swap');
+
+abbr {
+    text-decoration: none; 
+}
+
+a:focus, a:hover {
+    background-color: #0a0a47; 
+    border-radius: 5px;
+}
+
+a:link, a:visited {
+    color: #80A1F9; 
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    margin: -25px 475px 50px 475px;
+}
+
+header {
+    background-image: url(SiteTwoImages/Hum.png);
+    background-size: cover;
+    height: 500px;
+}
+
+html {
+    background-image: url(SiteTwoImages/real.gif);
+    background-size: 330px;
+ 
+}
+
+h1, h2 {
+    color: white;
+    font-family: 'Megrim', cursive;    
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: black 3px 3px 3px;
+}
+
+h1 {
+    font-size: 2em;
+    padding-top: 185px;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-top: 30px;
+}
+
+h3 {
+    color: #abcbff;
+    text-shadow: #0a0a47 2px 2px;
+}

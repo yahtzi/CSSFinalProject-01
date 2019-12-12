@@ -6,7 +6,7 @@ font-family: 'Cinzel Decorative', cursive;      Headings
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700|Raleway:400,500i,700,800i,900i&display=swap');
 
 abbr {
-    text-decoration: none;
+    text-decoration: none;  
 }
 
 a:focus, a:hover {
@@ -22,7 +22,6 @@ a:link, a:visited {
 body {
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    margin: -15px -10px 0px -10px;
 }
 
 
@@ -31,13 +30,13 @@ h1 {
     font-size: 250%;
     font-weight: bolder;
     position: relative;
-    top: 155px;
+    top: 255px;
 }      
       
 h2 {
     font-family: 'Cinzel Decorative', cursive;    
     font-size: 90%;
-    margin-top: 225px;
+    margin-top: 325px;
 }
 
 h3 {
@@ -46,17 +45,21 @@ h3 {
 }
 
 header {
-    background-image: url(images/leaf.jpg);
+    background-image: url(SiteOneImages/leaf.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 675px;
+    height: 970px;
     
     color: white;
     font-size: 3em;
-    margin-top: -100px;
+    margin-top: -110px;
     text-shadow: #8C392C 2px 2px;
     text-align: center;
+}
+
+html {
+    margin-bottom: 90px;
 }
 
 .main {
@@ -87,4 +90,7 @@ p, h3 {
     background-color: #ffe8e8;
     padding-left: 40px;
 }
- 
+
+.summary {
+    margin-top: 40px;
+}
